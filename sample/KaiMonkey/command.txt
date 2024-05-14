@@ -1,0 +1,5 @@
+# First, clone the source code
+cd Source
+git clone https://github.com/tenable/KaiMonkey.git
+
+python3 ./main.py --reinit=True ./sample/KaiMonkey/Source/KaiMonkey/terraform/aws/ --graph_mode=True

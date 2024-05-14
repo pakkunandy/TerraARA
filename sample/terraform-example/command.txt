@@ -1,0 +1,6 @@
+# First, clone the source code
+cd Source
+git clone https://github.com/futurice/terraform-examples.git
+
+# out1
+python3 ./main.py --reinit=True ./sample/terraform-example/Source/terraform-example/aws/aws_vpc_msk --graph_mode=True 

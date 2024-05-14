@@ -1,0 +1,8 @@
+# First, clone the source code
+cd Source
+git clone https://github.com/ine-labs/AWSGoat.git
+
+# module-1
+python3 ./main.py --reinit=True ./sample/AWSGoat/Source/AWSGoat/modules/module-2 --graph_mode=True
+# module-2
+python3 ./main.py --reinit=True ./sample/AWSGoat/Source/AWSGoat/modules/module-2 --graph_mode=True
